@@ -32,10 +32,19 @@ nav a:hover { color: var(--link); }
 .portrait { display: block; width: 150px; height: 200px; object-fit: cover; border-radius: 7px; border: 1px solid #f0f1f3; background: #fff; }
 h1 { margin: 0; font-size: 36px; font-weight: 600; letter-spacing: -.8px; line-height: 1.4; }
 .chinese-name { display: inline-block; margin-left: 13px; color: #757b83; font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", serif; font-size: 23px; font-weight: 400; letter-spacing: 2px; vertical-align: 2px; }
-.profile-note { margin: 8px 0 16px; color: var(--muted); font-size: 17px; }
+.profile-details { min-width: 0; }
+.profile-note { margin: 8px 0 9px; color: var(--text); font-size: 17px; line-height: 1.65; }
+.profile-affiliation { color: var(--muted); font-size: 16px; }
+.profile-email { display: inline-block; margin-bottom: 12px; font-size: 15px; line-height: 1.7; overflow-wrap: anywhere; }
+.profile-links { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; }
 .profile-link { display: inline-flex; align-items: center; gap: 7px; font: 14px/1.6 var(--sans); }
 .profile-link span { font-size: 14px; margin-left: 1px; }
 .biography { margin-top: 43px; }
+.biography p { margin: 0 0 17px; }
+.biography p:last-child { margin-bottom: 0; }
+.research-list { margin: 0; padding-left: 23px; }
+.research-list li { padding-left: 3px; margin-block: 4px; }
+.research-list li::marker { color: var(--link); font-size: .8em; }
 h2 { margin: 0 0 18px; color: var(--text); font-size: 26px; font-weight: 500; letter-spacing: -.35px; line-height: 1.5; }
 p { margin-top: 0; }
 .placeholder { color: var(--muted); font-size: 17px; margin: 0; }
@@ -62,13 +71,17 @@ p { margin-top: 0; }
   nav { width: 100%; gap: 25px; font-size: 12px; }
   nav a { padding-block: 3px; }
   .page { padding-top: 37px; }
-  .profile { grid-template-columns: 104px minmax(0, 1fr); gap: 23px; }
+  .profile { grid-template-columns: 104px minmax(0, 1fr); gap: 23px; align-items: start; }
   .portrait { width: 104px; height: 139px; border-radius: 5px; }
   h1 { font-size: 28px; line-height: 1.35; }
   .chinese-name { display: block; margin: 6px 0 0; font-size: 18px; }
   .profile-note { font-size: 14px; margin: 9px 0 10px; }
+  .profile-affiliation { font-size: 13px; }
+  .profile-email { font-size: 12px; margin-bottom: 10px; }
+  .profile-links { gap: 13px; }
   .profile-link { font-size: 12px; }
   .biography { margin-top: 38px; }
+  .biography, .research-list { font-size: 16px; }
   h2 { font-size: 24px; margin-bottom: 14px; }
   .placeholder { font-size: 16px; }
   .content-section { margin-top: 31px; padding-top: 27px; }

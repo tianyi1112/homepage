@@ -34,4 +34,4 @@ Remove the `empty-publications` element when adding real entries.
 
 Repository Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 
-Website: https://sty-1112.github.io/homepage/
+Website: https://tianyi1112.github.io/homepage/
